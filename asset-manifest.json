@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/GameXplore/static/css/main.aed07359.css",
+    "main.js": "/GameXplore/static/js/main.5090a299.js",
+    "static/js/453.2af7d7d8.chunk.js": "/GameXplore/static/js/453.2af7d7d8.chunk.js",
+    "static/media/crash.jpg": "/GameXplore/static/media/crash.d50d35e78e8677bfac5f.jpg",
+    "static/media/mario.jpg": "/GameXplore/static/media/mario.983dc2e9859c44c99995.jpg",
+    "static/media/Oddisay.mobile.jpg": "/GameXplore/static/media/Oddisay.mobile.6b2bc914838a94b98386.jpg",
+    "static/media/crash.mobile.jpg": "/GameXplore/static/media/crash.mobile.d59f8b6f540bbf67a729.jpg",
+    "static/media/re4.jpg": "/GameXplore/static/media/re4.a43f545113addbb8a307.jpg",
+    "static/media/left.jpg": "/GameXplore/static/media/left.aa98d355c3c4c5a2e3ba.jpg",
+    "static/media/left-4-dead.mobile.jpg": "/GameXplore/static/media/left-4-dead.mobile.828af78158c77445db2a.jpg",
+    "static/media/re4.mobile.jpg": "/GameXplore/static/media/re4.mobile.d7c17594c750f8039dff.jpg",
+    "index.html": "/GameXplore/index.html",
+    "main.aed07359.css.map": "/GameXplore/static/css/main.aed07359.css.map",
+    "main.5090a299.js.map": "/GameXplore/static/js/main.5090a299.js.map",
+    "453.2af7d7d8.chunk.js.map": "/GameXplore/static/js/453.2af7d7d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aed07359.css",
+    "static/js/main.5090a299.js"
+  ]
+}
