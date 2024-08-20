@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GameXplore/static/css/main.aed07359.css",
-    "main.js": "/GameXplore/static/js/main.0f7f27b3.js",
+    "main.js": "/GameXplore/static/js/main.85d5ab22.js",
     "static/js/453.2af7d7d8.chunk.js": "/GameXplore/static/js/453.2af7d7d8.chunk.js",
     "static/media/crash.jpg": "/GameXplore/static/media/crash.d50d35e78e8677bfac5f.jpg",
     "static/media/mario.jpg": "/GameXplore/static/media/mario.983dc2e9859c44c99995.jpg",
@@ -13,11 +13,11 @@
     "static/media/re4.mobile.jpg": "/GameXplore/static/media/re4.mobile.d7c17594c750f8039dff.jpg",
     "index.html": "/GameXplore/index.html",
     "main.aed07359.css.map": "/GameXplore/static/css/main.aed07359.css.map",
-    "main.0f7f27b3.js.map": "/GameXplore/static/js/main.0f7f27b3.js.map",
+    "main.85d5ab22.js.map": "/GameXplore/static/js/main.85d5ab22.js.map",
     "453.2af7d7d8.chunk.js.map": "/GameXplore/static/js/453.2af7d7d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aed07359.css",
-    "static/js/main.0f7f27b3.js"
+    "static/js/main.85d5ab22.js"
   ]
 }
