@@ -1,0 +1,184 @@
+/* Estilos para la página de inicio */
+.home {
+    background-color: #333;
+    color: #fff;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    padding: 1.25rem;
+    /* 20px */
+    position: relative;
+}
+
+
+
+
+/* Estilos para el carrusel */
+.home-carousel {
+    margin-bottom: 0.625rem;
+    /* 10px */
+    max-width: 100%;
+    /* Asegúrate de que el carrusel no exceda el ancho de su contenedor */
+}
+
+.home-carousel .carousel-item {
+    height: 34.375rem;
+    /* 550px */
+    position: relative;
+    /* Necesario para posicionar el caption correctamente */
+    animation: slideIn 1s ease-out;
+    /* Animación del carrusel */
+}
+
+.home-carousel .carousel-item img {
+    height: 100%;
+    width: 100%;
+}
+
+.home-carousel .carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    /* Fondo oscuro para la leyenda */
+    border-radius: 0.5rem;
+    /* 8px */
+    bottom: 0.625rem;
+    /* 10px */
+    padding: 0.3125rem;
+    /* 5px */
+    transition: opacity 0.3s ease;
+    /* Transición suave para la opacidad */
+    position: absolute;
+    /* Asegura que el caption se posicione sobre la imagen */
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.home-carousel .carousel-caption h3 {
+    color: #f44336;
+    /* Color rojo para los títulos de los juegos */
+}
+
+.home-carousel .carousel-caption p {
+    color: #ccc;
+    /* Color gris claro para la descripción */
+    max-height: 0;
+    /* Ocultar la descripción por defecto */
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    /* Transición suave para la altura y opacidad */
+}
+
+.home-carousel .carousel-item:hover .carousel-caption p {
+    max-height: 6.25rem;
+    /* 100px */
+    opacity: 1;
+}
+
+/* Animaciones */
+
+/* Animación del encabezado */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Animación de pulso para el título */
+@keyframes pulse {
+    0% {
+        text-shadow: 0.25rem 0.25rem 0.375rem rgba(0, 0, 0, 0.8);
+    }
+
+    50% {
+        text-shadow: 0.25rem 0.25rem 0.75rem rgba(0, 0, 0, 1);
+    }
+
+    100% {
+        text-shadow: 0.25rem 0.25rem 0.375rem rgba(0, 0, 0, 0.8);
+    }
+}
+
+/* Animación para el carrusel */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    /* 20px */
+    justify-content: center;
+}
+
+.game-card {
+    background-color: #333;
+    /* Fondo oscuro para las tarjetas de juego */
+    border: 0.125rem solid #f44336;
+    /* Borde rojo (2px) */
+    border-radius: 0.5rem;
+    /* Radio del borde (8px) */
+    padding: 0.9375rem;
+    /* Espaciado interno de la tarjeta (15px) */
+    width: 15.625rem;
+    /* 250px */
+    text-align: center;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
+    /* Sombra de la tarjeta */
+    transition: transform 0.3s, box-shadow 0.3s;
+    animation: bounceIn 0.5s ease-out;
+    /* Animación para las tarjetas de juego */
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    /* Sombra más pronunciada al pasar el ratón */
+}
+
+.game-image {
+    max-width: 100%;
+    border-radius: 0.5rem;
+    /* Radio del borde de la imagen (8px) */
+    margin-bottom: 0.625rem;
+    /* 10px */
+}
+
+h3 {
+    margin: 0.625rem 0;
+    /* 10px 0 */
+    color: #f44336;
+    /* Color rojo para los títulos de los juegos */
+}
+
+p {
+    color: #ccc;
+}
+
+
+.home-carousel-mobile{
+    display: none;
+}
+@media only screen and (max-width:40em){
+    .home-carousel-desktop{
+        display: none;
+    }
+    .home-carousel-mobile{
+        display: block;
+    }
+}
